@@ -1,0 +1,33 @@
+Docker is a container technology
+   - A tool for creating and managing containers
+
+Container - A standardized unit of software
+     - A package of code and dependencies to run that code
+     - The same container always yields the exact same application and
+       execution behaviour
+
+Why containers
+   - Different Development environments
+   - Different development environemnts within a team/company
+   - Clashing tools/versions between different projects
+
+vm's vs Docker
+   - Redundant duplication, waste of space
+   - performance can be slow, boot times can be long
+   
+Images and containers
+   - Images are templates/Blueprints for containers 
+   - Contains code + required tools/runtimes 
+   
+   - Containers are running instances of images
+
+   - Images are read-only
+
+Image Layer
+   - Every instruction is a layer
+   - These layers are cached
+   - If one layer changes all below layers are rebuild
+
+
+
+  
